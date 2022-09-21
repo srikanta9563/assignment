@@ -1,3 +1,4 @@
+//WJP to print numbers between 1 to 200 which are divisible by 5,7and by both..
 public class Divisable {
 
         public static void main(String args[]) {
