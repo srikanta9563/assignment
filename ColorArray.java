@@ -1,3 +1,4 @@
+// write a java program to create a new array list of elements add some colors array list of elements
 import java.util.Scanner;
 
 public class ColorArray {
