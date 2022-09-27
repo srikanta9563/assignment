@@ -1,3 +1,4 @@
+//write a java program to find average of an int array
 import java.util.*;
 
 public class avaragearray {
