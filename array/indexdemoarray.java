@@ -1,4 +1,4 @@
-
+//write a java program to find the index of anarray element
 
 public class indexdemoarray {
     public static void main(String[] args) {
