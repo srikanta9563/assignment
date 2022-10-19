@@ -4,8 +4,8 @@
 import java.util.*;
 public class Exampleexception {
     public static void main(String[] args) {
-          Scanner scan = new Scanner(System.in);
-        System.out.println(" Enter the values of x and y : ");// object of scanner class
+          Scanner scan = new Scanner(System.in);// object of scanner class
+        System.out.println(" Enter the values of x and y : ");
         try { //try block
 
             int x = scan.nextInt();
