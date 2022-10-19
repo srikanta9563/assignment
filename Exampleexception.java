@@ -13,7 +13,7 @@ public class Exampleexception {
             System.out.println(x / y);
         }
             catch(InputMismatchException e) { //using catch block trying to catch the exception if any InputMismatchException exception occurs
-            System.out.println(e.getClass().toString().replaceFirst("class ", ""));
+            System.out.println(e.getClass().toString().replaceFirst("class ", "Exception : "));
         } catch (ArithmeticException e) { ///using catch block trying to catch the exception if any ArithmeticException occurs
             // Print exception
             System.out.println(e);
