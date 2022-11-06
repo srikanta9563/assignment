@@ -1,6 +1,7 @@
+//1. Write a thread to print the thread name with a 2 sec delay with main thread.
 class Thread5 extends Thread{
     public void run(){
-        System.out.println(Thread.currentThread().getName());
+        System.out.println(Thread.currentThread().getName());//getteing thread name
     }
 }
 public class Threaddemo1 {
@@ -10,7 +11,7 @@ public class Threaddemo1 {
         t1.start();
         try {
 
-            Thread.sleep(2000);
+            Thread.sleep(2000);// adding 2 sec delay with  sleep mood
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
