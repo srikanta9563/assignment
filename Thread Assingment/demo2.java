@@ -1,3 +1,4 @@
+//2.now write the same program using Runnable interface
 class MyThreadRunnable implements Runnable {
 
     public void run() {
